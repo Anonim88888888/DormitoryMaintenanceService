@@ -426,3 +426,24 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# .NET generated files
+**/bin/
+**/obj/
+
+# Node.js generated files
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Local SQLite databases and journals
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.sqlite
+**/*.sqlite3
+
+# Local environment variables and secrets
+**/.env
+**/.env.*
+!**/.env.example
